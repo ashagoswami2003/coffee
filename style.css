@@ -1,0 +1,169 @@
+.br {border: 2px solid red;}
+.bb {border: 2px solid blue;}
+.bm {border: 2px solid magenta;}
+.bg {border: 2px solid gold;}
+
+.navbar {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1111111;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    color: white !important;
+}
+.navbar-toggler {
+    background-color: white !important;
+}
+
+.first-main-sec {
+    min-height: 700px;
+    background-color: #3b141c;
+}
+
+/* .first-left-sec {
+    min-height: 90vh;
+} */
+.first-right-sec img {
+    width: 70%;
+}
+.first-button-con {
+    min-height: 100px;
+}
+.first-button-con button:nth-child(1) {
+    padding: 10px 24px;
+    background-color: #f2971c;
+    color: black;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.first-button-con button:nth-child(2) {
+    padding: 10px 24px;
+    border: 2px solid white;
+    color: white;
+    background-color: #3b141c;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.second-main-sec {
+    min-height: 600px;
+}
+/* .second-left-sec {
+    min-height: 600px;
+} */
+.second-left-sec img {
+    /* border-radius: 50%; */
+    height: auto;
+    object-fit: cover;
+}
+.first-icon-con {
+    min-height: 50px;
+}
+.first-icon-con i {
+    font-size: 25px;
+}
+
+.third-main-sec {
+    height: auto;
+}
+.third-card-con {
+    height: auto;
+}
+.third-card {
+    height: 450px;
+}
+.third-item-card {
+    width: 100%;
+    height: 100%;
+}
+.third-item-card img {
+    width: 60%;
+}
+.third-item-card p {
+    width: 80%;
+}
+.img-sec {
+    width: 100%;
+    height: 250px;
+}
+
+.fourth-main-sec {
+    height: auto;
+}
+
+.fourth-card {
+    height: 500px;
+}
+.fourth-item-card {
+    width: 90%;
+    height: 100%;
+}
+.fourth-item-card img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.fifth-main-sec {
+    height: auto;
+}
+.fifth-card-con {
+    height: auto;
+}
+.fifth-card {
+    height: 300px;
+}
+.fifth-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.footer-sec {
+    height: auto;
+}
+.footer-div {
+    height: auto;
+}
+.footer-text {
+    height: auto;
+}
+.footer-left-sec {
+    height: auto;
+}
+.name-div {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-div input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.message-div {
+    min-height: 100px;
+    /* display: flex;
+    align-items: start;
+    justify-content: center; */
+}
+.message-div input {
+    width: 100%;
+    height: 100%;
+    text-wrap: wrap;
+    outline: none;
+    border: none;
+}
+.message-div input::placeholder {
+    text-wrap: wrap;
+    height: 100%;
+}
+.footer-right-sec button {
+    padding: 8px 30px;
+    border-radius: 50px;
+    background-color: #3b141c;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
